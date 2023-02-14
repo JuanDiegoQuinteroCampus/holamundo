@@ -1,26 +1,32 @@
 .menu{
-    align-items:end;
-    justify-content:end;
-    text-align: end;
+    
 }
 body{
     margin-top: -4%;
     margin-left: -0.5%;
     margin-right: 0%;
 }
+#portada{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    
+}
 #campus{
     position: absolute;
-    right: 0%;
-    top: 5%; 
+    left: 5%;
+    top: 43%; 
     height: 20%;
     width: 20;   
+    border-radius: 50%;
+    border-style:ridge;
+
 }
 .pag1{
-    background-color:blueviolet;
-    position: absolute;
-    height: 107%;
-    width: 101%;
+    font-family: 'opensans-regular-webfont';
+    background-color : rgb(158, 109, 158);
     
+    position:static;
     
 }
 .hola{
@@ -35,3 +41,21 @@ body{
     bottom: -30%;
     
 }
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-block;
+    position:absolute;
+    right: 3%;
+    transform: translate(-20%, 0%);
+    
+}
+#izquierda{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    
+}
+
